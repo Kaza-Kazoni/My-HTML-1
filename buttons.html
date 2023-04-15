@@ -1,0 +1,257 @@
+<style>
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 1s;
+  }
+
+  .subscribe-button:hover {
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.5;
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(31, 121, 223);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(31, 121, 223);
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: backround-color 0.15s,
+    color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color:rgb(31, 121, 223);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
+  }
+
+  .tweet-button {
+    background-color: rgb(46, 143, 223);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+  
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .request {
+    background-color: black;
+    color: white;
+    height: 42px;
+    width: 118px;
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+  }
+
+  .request:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .request:active {
+    opacity: 0.5;
+  }
+
+  .add {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    height: 32px;
+    width: 149px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+  }
+
+  .add:hover {
+    opacity: 0.8;
+    background-color: black;
+    color: rgb(255, 216, 20);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .add:active {
+    opacity: 0.5;
+  }
+
+  .sign {
+    background-color: rgb(46, 146, 79);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 105px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+  }
+
+  .sign:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .sign:active {
+    opacity: 0.5;
+  }
+  
+
+  .get {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+    
+  }
+
+  .get:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .get:active {
+    opacity: 0.5;
+  }
+
+  .download {
+    background-color: rgb(240, 237, 237);
+    color: rgb(66, 65, 65);
+    border: 1px;
+    border-color: rgb(94, 91, 91);
+    border-width: 1px;
+    border-style: solid;
+    height: 40px;
+    width: 118px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+  }
+
+  .download:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .download:active {
+    opacity: 0.5;
+  }
+
+  .apply {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    height: 37px;
+    width: 215px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 8px;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+  }
+
+  .apply:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .save {
+    background-color: white;
+    color:  rgb(39, 127, 199);
+    height: 47px;
+    width: 95px;
+    border-radius: 25px;
+    border-color:  rgb(46, 143, 223);
+    border-style: solid;
+    font-weight: bold;
+    font-size: medium;
+    border-width: 1.5px;
+    transition: box-shadow 0.15s,
+    color 0.15s;
+
+  }
+
+  .save:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  </style>
+
+<button class="subscribe-button">
+  SUBSCRIBE
+</button>
+<button class="join-button">
+  JOIN
+</button>
+<button class="tweet-button">
+  Tweet
+</button>
+<button class="request">
+  Request now
+</button>
+<button class="add">
+  Add to Cart
+</button>
+<button class="sign">
+  Sign up
+</button>
+<button class="get">
+  Get started
+</button>
+<button class="download">
+  Download
+</button>
+<button class="apply">
+  Apply on company website
+</button>
+<button class="save">
+  Save
+</button>
